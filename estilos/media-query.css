@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px){
+    body{
+        width: 1440px;
+    }
+    header{
+        float: left;
+        width: 400px;
+        margin-top: 25vh;
+        margin-left: 5vw;
+    }
+    
+    header h1{
+        margin: 80px 25px 0 0;
+    }
+
+    header p{
+        margin-top: 20px;
+        text-align: left;  
+    }
+
+    main{
+        margin-top: 15vh;
+        margin-right: 10vw;
+        float: right;
+    }
+    
+    section#banner{
+        width: 94%;
+    }
+    
+    section#signup{
+        width: 650px;
+    }
+    
+    section form input{
+        width: 85%;
+        padding: 20px;
+        margin: auto;
+        margin-top: 15px;
+    }
+}
